@@ -1,5 +1,5 @@
 # vscode-download-file
-[![Version](https://vsmarketplacebadge.apphb.com/version/dariofuzinato.download-file.svg)](https://marketplace.visualstudio.com/items?itemName=dariofuzinato.download-file)
+[![Version](https://vsmarketplacebadge.apphb.com/version/dariofuzinato.vscode-download-file.svg)](https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vscode-download-file)
 
 ## Features
 

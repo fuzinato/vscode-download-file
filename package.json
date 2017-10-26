@@ -1,6 +1,6 @@
 {
   "name": "vscode-download-file",
-  "displayName": "vscode-download-file",
+  "displayName": "Download file",
   "description": "Easy way to download any file to your project",
   "version": "0.0.1",
   "publisher": "dariofuzinato",
@@ -10,9 +10,7 @@
     "download",
     "file",
     "url",
-    "get",
-    "http",
-    "https"
+    "get"
   ],
   "repository": {
     "type": "git",
