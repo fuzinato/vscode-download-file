@@ -1,0 +1,69 @@
+{
+  "name": "vscode-download-file",
+  "displayName": "vscode-download-file",
+  "description": "Easy way to download file to your project",
+  "version": "0.0.1",
+  "publisher": "dariofuzinato",
+  "icon": "images/vue-download-file-icon.png",
+  "license": "ISC",
+  "keywords": [
+    "download",
+    "file",
+    "url",
+    "get",
+    "http",
+    "https"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fussinatto/vscode-download-file"
+  },
+  "bugs": {
+    "url": "https://github.com/fussinatto/vscode-download-file/issues"
+  },
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.downloadFile"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.downloadFile",
+        "title": "Download File"
+      }
+    ],
+    "configuration": {
+      "title": "Download File Configuration",
+      "properties": {
+        "download-file.defaultFolder": {
+          "type": "string",
+          "default": "/",
+          "description": "Default folder where file should be saved."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2",
+    "vscode": "^1.1.5",
+    "mocha": "^3.5.0",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
