@@ -1,11 +1,11 @@
 {
   "name": "vscode-download-file",
   "displayName": "vscode-download-file",
-  "description": "Easy way to download file to your project",
+  "description": "Easy way to download any file to your project",
   "version": "0.0.1",
   "publisher": "dariofuzinato",
-  "icon": "images/vue-download-file-icon.png",
-  "license": "ISC",
+  "icon": "images/download-file-icon.png",
+  "license": "MIT",
   "keywords": [
     "download",
     "file",
@@ -43,7 +43,7 @@
       "properties": {
         "download-file.defaultFolder": {
           "type": "string",
-          "default": "/",
+          "default": "",
           "description": "Default folder where file should be saved."
         }
       }
